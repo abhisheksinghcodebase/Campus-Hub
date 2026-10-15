@@ -1,0 +1,14 @@
+{
+  "name": "login-system-root",
+  "version": "1.0.0",
+  "description": "Full-stack Node.js + Express + MongoDB + React login/auth system",
+  "scripts": {
+    "server": "npm run dev --prefix backend",
+    "client": "npm start --prefix frontend",
+    "test:api": "node backend/test_api.js",
+    "test": "npm run test --prefix backend && npm run test:e2e --prefix frontend"
+  },
+  "keywords": ["auth", "jwt", "express", "react", "mongodb", "nodemailer"],
+  "author": "",
+  "license": "ISC"
+}

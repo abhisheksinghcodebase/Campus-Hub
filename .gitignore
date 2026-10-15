@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Build and test output
+build/
+dist/
+coverage/
+test-results/
+playwright-report/
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/tempCodeRunnerFile.js
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
