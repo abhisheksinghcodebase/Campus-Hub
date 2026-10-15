@@ -86,7 +86,7 @@ Run the project test suite from the root:
 npm test
 ```
 
-This runs backend tests (`node:test`) and headless Chromium browser flows (Playwright). The backend suite covers teacher allowlisting, login/token protection, resource model validation, search/pagination, and ownership checks. Browser tests mock API responses while covering student search/filter/PDF download and the teacher publish/edit/delete workflow; they do not verify live MongoDB/GridFS integration.
+This runs backend tests (`node:test`) and headless Chromium browser flows (Playwright). Frontend browser tests are in `frontend/tests/`. The backend suite covers teacher allowlisting, login/token protection, resource model validation, search/pagination, and ownership checks. Browser tests mock API responses while covering student search/filter/PDF download and the teacher publish/edit/delete workflow; they do not verify live MongoDB/GridFS integration.
 
 ## Mobile Responsive
 
